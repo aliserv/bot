@@ -335,7 +335,7 @@ coll.first().delete()
 client.on('ready', function(){
   client.user.setStatus("dnd");
     var ms = 40000 ;	
-    var setGame = ['PRO SERVER'];	
+    var setGame = ['#help'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -437,7 +437,7 @@ m.sendMessage(args)
 client.on('ebnklb',function(ebnklb) {
     
     if(ebnklb.content.startsWith(`<@${client.user.id}>`)) {
-        ebnklb.channel.send('Hey Im **PRO BOT !**  A Nice Bot Developed By:`MHSTR`')
+        ebnklb.channel.send('Hey Im **FOIL BOT !**  A Nice Bot Developed By:`foil`')
         ebnklb.channel.send('My Prefix `#`')
 
     }
